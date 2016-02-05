@@ -1,0 +1,121 @@
+body{
+  margin: 7px;
+  padding:10px;
+
+}
+header{
+background: #7fff00 url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg') no-repeat;
+background-size: cover;
+padding: 10px;
+
+}
+h1{
+  text-align: center;
+  color: #990098;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 8px #0000FF;
+}
+h2{
+  color:#990098;
+text-transform: uppercase;
+}
+
+.right{
+  float:right;
+  display: inline-block;
+  width:85%;
+
+}
+nav{
+  text-align: center;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  width: 100px;
+  padding: 2px 15px ;
+  margin: 10px 20px 10px 20px;
+  font-size: 25px;
+  background-color: #666666;
+  color: #990098;
+  border-radius:  25px 0px;
+  opacity: .7;
+
+}
+.active{
+  background-color: #ffffff;
+  color:#00b7ea;
+  border-style: outset;
+  opacity: 1;
+}
+img{
+  display:block;
+  width: 100px;
+  border: 5px;
+  border-color: rgba(220,220 ,220,);
+  border-style: inset;
+  margin:50px auto;
+  padding: 5px;
+
+}
+.left{
+  text-align: left;
+  display: inline-block;
+  background: #990098;
+  width:15%;
+}
+nav a:hover{
+  background-color: #990098;
+  color:#ffffff;
+  border-style: inset;
+  opacity: 1;
+}
+
+table{
+
+  margin:25px 45vh;
+  width:60%;
+  border:inset;
+
+}
+tr{
+  background: #e8e8b0;
+  opacity: .7;
+  padding: 0px 17px;
+  transition-property: background, color, opacity;
+  transition-delay: 0s;
+  transition-duration: .01s;
+}
+tr:hover{
+  opacity:1;
+  background:#993399;
+  color:#FFFFFF;
+}
+
+th{
+  background: -moz-linear-gradient(#990099, 20%, #993399);
+  background: -webkit-linear-gradient(#990099, 20%, #993399);
+  background:-o-linear-gradient(#990099, 20%, #993399);
+  background:linear-gradient(#990099, 20%, #993399);
+  color:#ffffff;
+  border: outset;
+  font-family: "Default Gothic" ,sans-serif, monospace;
+  opacity: 1;
+
+}
+
+
+tr > td:nth-of-type(2){
+  text-align: center;
+}
+
+tr > td:nth-of-type(3){
+  text-align: center;
+}
+td{
+  font-family:Georgia,serif;
+  font-variant: small-caps;
+  text-decoration: underline;
+  font-weight: bold;
+
+}
