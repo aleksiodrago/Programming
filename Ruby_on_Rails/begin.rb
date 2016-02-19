@@ -40,9 +40,10 @@ puts ('a'...'r') === "r" # => false (end-exclusive)
 p ('k'..'z').to_a.sample(2) # => ["k", "w"]
 # or another random array with 2 letters in range
 
-age = 12
+age = 12 
+  case age
   when 0..12 then puts "Still a baby"
-    case age
+   
   when 13..99 then puts "Teenager at heart!"
   else puts "You are getting older..."
 end
