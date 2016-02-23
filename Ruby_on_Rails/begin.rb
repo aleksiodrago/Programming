@@ -17,7 +17,7 @@
 #   one / two
 # end
 #
-# puts add(2, 2) # => 4
+# #puts add(2, 2) # => 4
 # puts divide(2, 0) # => I don't think so
 # puts divide(12, 4) # => 3
 # begin
@@ -45,10 +45,10 @@ age = 12
 case age
   when 0..12 then puts "Still a baby"
 =======
-age = 12 
+age = 12
   case age
   when 0..12 then puts "Still a baby"
-   
+
 >>>>>>> c028f1394d7ece3e42f0e1747edca9f817d86799
   when 13..99 then puts "Teenager at heart!"
   else puts "You are getting older..."
