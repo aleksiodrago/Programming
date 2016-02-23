@@ -17,4 +17,6 @@ class Calculator
   def divide(one, two)
   	one / two
   end
-end
+end \
+
+p Calculator.new("aleksi").add(10,-1) 
