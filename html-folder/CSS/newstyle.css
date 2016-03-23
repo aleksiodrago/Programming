@@ -58,6 +58,9 @@ summary{
 img{
   width: 75px;
 }
+div{
+  display: inline-block;
+}
 
 
 
